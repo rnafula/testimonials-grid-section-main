@@ -8,7 +8,6 @@ body{
     display:flex;
     flex-direction: row;
     width:90%;
-    height:400px;
     margin:20px auto;
     gap:10px;
 
@@ -17,11 +16,13 @@ body{
     display: flex;
     flex-direction: column;
     width:60%; 
+    gap:10px;
 
 }
 .first-one{
     display:flex;
     flex-direction: row;
+    gap:10px;
 }
 .first-one-1{
     width:70%;
@@ -73,11 +74,11 @@ body{
 .first-two{
     display:flex;
     flex-direction: row;
+    gap:10px;
 
 }
 .first-two-1{
     width:20%;
-    height:auto;
     background-color:hsl(0, 0%, 100%);
     border-radius: 8px;
     padding: 10px;
@@ -85,13 +86,13 @@ body{
 }
 .first-two-2{
     width:70%;
-    height:auto;
     background-color:hsl(219, 29%, 14%) ;
     border-radius: 8px;
     padding: 10px;
 }
 
 .overall-second{
+
     width:20%;
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
