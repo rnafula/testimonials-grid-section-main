@@ -1,3 +1,6 @@
+*{
+    box-sizing:border-box;
+}
 body{
     background-color:  hsl(210, 46%, 95%);
 }
@@ -5,13 +8,15 @@ body{
     display:flex;
     flex-direction: row;
     width:90%;
-    margin: 20px auto;
+    height:400px;
+    margin:20px auto;
+    gap:10px;
 
 }
 .overall-first{
     display: flex;
     flex-direction: column;
-    width:60%;
+    width:60%; 
 
 }
 .first-one{
@@ -21,13 +26,71 @@ body{
 .first-one-1{
     width:70%;
     height:auto;
-    background-color:purple ;
+    background-color:hsl(263, 55%, 52%) ;
+    border-radius: 8px;
+    padding: 10px;
+}
+.image_name{
+    display:flex;
+    gap:2px;
+
+}
+.image_style{
+    border-radius:100%;
+    border:2px solid rgb(185, 154, 235);
+}
+.spancontent{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.name{
+    color: hsl(0, 0%, 100%)
+}
+.verified{
+    color: hsl(0, 0%, 100%);
+    opacity:50%;
+
+}
+.first-paragraph{
+    color:hsl(0, 0%, 100%);
+    font-weight:600;
+    
+
+}
+.second-paragraph{
+    color:hsl(0, 0%, 100%);
+    opacity:50%;
+
 }
 .first-one-2{
     width:20%;
     height:auto;
-    background-color:lightslategray ;
+    background-color:lightslategray;
+    border-radius: 8px;
+    padding: 10px;
 }
+.first-two{
+    display:flex;
+    flex-direction: row;
+
+}
+.first-two-1{
+    width:20%;
+    height:auto;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 8px;
+    padding: 10px;
+
+}
+.first-two-2{
+    width:70%;
+    height:auto;
+    background-color:hsl(219, 29%, 14%) ;
+    border-radius: 8px;
+    padding: 10px;
+}
+
 .overall-second{
     width:20%;
     background-color: hsl(0, 0%, 100%);
